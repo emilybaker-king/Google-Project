@@ -4,14 +4,87 @@
     <head>
 
         <meta charset="UTF-8">
+        <title>Google</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-        
+        <meta name="author" content="Emily Baker-King">
+        <meta name="description" content="This is a basic google search page">
+     
     </head>
 
     <body>
     
+        <img src="http://i.kinja-img.com/gawker-media/image/upload/s--pEKSmwzm--/c_scale,fl_progressive,q_80,w_800/1414228815325188681.jpg" alt= "Google Pic" class="center">
+
+        <div class="searchBar">
+
+            <input type="text" placeholder="Search..." class="Search-box">
+            <button class="search-box-button">🔍</button>
+
+        </div>
+
+        <table class="buttons">
+
+            <td>
+                <a href="">Google Search</a>  
+            </td>
+            <td>
+                <a href="">I'm Feeling Lucky</a>
+            </td>
+    
+        </table>
+
+
     </body>
+
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            max-width: 25%;
+            max-height: 25%;
+        }
+
+        .searchBar {
+           display: inline-flex;
+           font-size: 20px;
+           float: center;
+        }
+
+        .searchBox {
+            font-size: inherit;
+            border: 0.2em solid #7e7;
+            border-radius: 0.5em 0 0 0.5em;
+            padding: 0.2em 0.5em;
+            outline: 0;
+        }
+
+        .search-box-button {
+            font-size: inherit;
+            border: 0.2em solid #7e7;
+            border-radius: 0 0.5em 0.5em 0;
+            background-color: #7e7;
+            border-left: 0;
+            padding: 0 0.75em;
+            font-weight: bold;
+            outline: 0;
+            cursor: pointer;
+        }
+
+        .buttons {
+            border-width: 1px;
+            border-color: darkgreen;
+            border-style: dashed;
+            border-radius: 20px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+    </style>
 
 </html>
